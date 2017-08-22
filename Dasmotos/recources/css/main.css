@@ -1,0 +1,42 @@
+
+/* Main Styles */
+
+header {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: khaki;
+}
+
+h1, h2, h3, p {
+    font-family: Helvetica, sans-serif;
+}
+
+/* Styles the main heading and the span in the paragraph */
+
+.item h2 {
+    color: white;
+    font-size: 32px;
+}
+.item p span{
+    color:blue;
+    font-weight: bold;
+}
+
+
+/* Color the main heading of each section */
+
+#brushes h2 {
+    background-color: mediumspringgreen;
+}
+
+#frames h2 {
+    background-color: lightcoral;
+}
+
+#paint h2 {
+    background-color: skyblue;
+}
